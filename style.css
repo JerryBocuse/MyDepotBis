@@ -1,0 +1,111 @@
+body {
+
+	background-color: #000033;
+
+	background-image: url ('assets/images/stars.gif');
+
+	color: #FFCC00;
+
+	font-family: 'Antonio', sans-serif;
+
+	padding: 0;
+
+	margin: 0;
+
+}
+
+.lcars-container {
+
+	width: 800px;
+
+margin: 0 auto;
+
+border: 8px solid #FF9900;
+
+	padding: 20px;
+
+	background-color: #000066;
+
+}
+
+.lcars-header {
+
+	display: flex;
+
+	justify-content: space-between;
+
+border-bottom: 4px solid #FF9900;
+
+	padding-bottom: 10px;
+
+}
+
+.dialogue-box {
+
+	height: 300px;
+
+border: 3px solid #FF9900;
+
+margin: 20px 0;
+
+	padding: 20px;
+
+	display: flex;
+
+}
+
+#crew-face {
+
+	width: 150px;
+
+	margin-left: 20px;
+
+}
+
+#crew-face img {
+
+	width: 100%;
+
+}
+
+.lcars-actions {
+
+	display: flex;
+
+	gap: 10px;
+
+}
+
+.lcars-actions button {
+
+	background: #FF9900;
+
+	border: none;
+
+	padding: 15px;
+
+	font-family: 'Antonio', sans-serif;
+
+	font-weight: bold;
+
+	cursor: pointer;
+
+}
+
+/* Animation kitsch */
+
+@keyframes blink {
+
+	0% { opacity: 1; }
+
+	50% { opacity: 0; }
+
+	100% { opacity: 1; }
+
+}
+
+.blink {
+
+animation: blink 1s infinite;
+
+}

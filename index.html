@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<title>Star Trek: Bridge Crew</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href ="https://fonts.googleapis.com/css2?family =Antonio:wght@700&display=swap" rel ="stylesheet">
+
+</head>
+
+<body>
+
+<div class="lcars-container">
+
+		<!-- En-tête LCARS -->
+
+	<div class="lcars-header">
+
+	<h1>USS VOYAGER - DILITHIUM CRISIS</h1>
+
+	<div class ="dilithium-counter">DILITHIUM: <span id ="dilithium">100</span></div>
+
+		</div>
+
+	<!-- Zone de dialogue -->
+
+	<div class="dialogue-box">
+
+	<div id ="dialogue-text">CAPTAIN, WE HAVE A PROBLEM...</div>
+
+	<div id="crew-face"><img src ="assets/images/spock.png" alt ="Spock"></div>
+
+		</div>
+
+		<!-- Boutons d'action -->
+
+	<div class="lcars-actions">
+
+	<button onclick="askEngineer ()">TALK TO ENGINEER</button>
+
+	<button onclick="askScience ()">ASK SCIENCE</button>
+
+	<button onclick="warp ()">ENGAGE WARP</button>
+
+		</div>
+
+	<!-- Alerte kitsch -->
+
+	<marquee id="alert" style ="display:none;">RED ALERT! RED ALERT!</marquee>
+
+	</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
