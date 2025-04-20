@@ -51,7 +51,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0 # Let's get all the branches.
-          ref: my-pages
+          ref: main
 
       # In README.md, switch step 1 for step 2.
       - name: Update to step 2
@@ -60,4 +60,4 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           from_step: 1
           to_step: 2
-          branch_name: my-pages
+          branch_name: main
